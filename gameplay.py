@@ -13,7 +13,7 @@ class Gameplay:
         self.generate_level()
     
     def generate_level(self):
-        for i in range(10):
+        for i in range(1):
             planet = Planet(self.visible_sprites, (randint(200, 1900), randint(200, 900)), (212, 214, 114))
             self.planets.append(planet)
     
